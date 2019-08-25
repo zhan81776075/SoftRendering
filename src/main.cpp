@@ -371,7 +371,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE prevInstance, PSTR cmdLine, in
 		//SetCamera(3.f, 3.f, dist);
 		SetCamera(w, h, dist);
 
-		light_theta += 0.00f;
+		light_theta += 0.05f;
 		TransformLight(light, light_theta);
 
 		if (screen->isKeyPressed(VK_UP))
